@@ -1,11 +1,50 @@
+import React from "react";
+import Head from "next/head";
+
 function Home() {
   return (
-    <body style={{ textAlign: "center" }}>
-      <h1>Mãe, você é a pessoa mais incrivel que eu conheço</h1>
-      <strong style={{ fontSize: "18px" }}>NEOQEAV!</strong>
-      <br></br>
-      <img src="https://i.pinimg.com/originals/b3/a2/ef/b3a2efc0167431c879bf62ac9ac00a23.gif"></img>
-    </body>
+    <>
+      <Head>
+        <title>Em Construção | Sávio Morais</title>
+        <meta
+          name="description"
+          content="Site pessoal de compartilhamento de aprendizados de tecnologia"
+        />
+      </Head>
+
+      <div className="container">
+        <main className="main-content">
+          <h1>🚧 Em Construção 🚧</h1>
+          <p>
+            Esse site está sendo construido como uma forma de Compartilhar
+            aprendizados dentro da área de tecnologia, apresentando referencias
+            e indicações de conteúdos e desenvolvimento dentro da área
+          </p>
+        </main>
+
+        <footer className="footer">
+          <p>
+            Esse projeto está sendo desenvolvido por{""}
+            <a
+              href="https://github.com/Savio-S-Morais"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sávio Morais
+            </a>
+            {""}
+            em parceria com o{""}
+            <a
+              href="https://curso.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              curso.dev
+            </a>
+          </p>
+        </footer>
+      </div>
+    </>
   );
 }
 
